@@ -1,0 +1,206 @@
+proposta_comercial:
+  meta:
+    titulo: "PROPOSTA COMERCIAL - CHATBOT INTELIGENTE PARA WHATSAPP"
+    fornecedor:
+      empresa: "FRAGAS AUTOMAÇÕES"
+      tagline: "Soluções Inteligentes para seu Negócio"
+      email: "automacoesfragas@gmail.com"
+      telefone: "(11) 94737-6617"
+      whatsapp: "5511947376617"
+    
+    cliente: "Os Padrin"
+    data: "30 de Julho de 2025"
+    validade: "15 dias"
+
+  projeto:
+    titulo: "SOBRE O PROJETO"
+    descricao: "Desenvolvimento de um Chatbot Inteligente para WhatsApp da Os Padrin, focado no segmento de calçados esportivos, com integração completa a planilhas Google Sheets para gestão automatizada de estoque, catálogo e vendas."
+
+  funcionalidades:
+    - nome: "CONSULTA DE STATUS"
+      icone: "📊"
+      detalhes:
+        - "Verificação instantânea de disponibilidade"
+        - "Consulta por modelo, marca, tamanho e cor"
+        - "Informações de localização no estoque"
+        - "Atualização em tempo real"
+    
+    - nome: "CATÁLOGO INTELIGENTE"
+      icone: "🛍️"
+      detalhes:
+        - "Navegação por categorias"
+        - "Consulta de preços e promoções ativas"
+        - "Descrições detalhadas dos produtos"
+        - "Sistema de busca por filtros"
+    
+    - nome: "PROCESSO DE VENDAS"
+      icone: "💰"
+      detalhes:
+        - "Coleta automatizada de dados do cliente"
+        - "Cálculo automático de valores e descontos"
+        - "Múltiplas formas de pagamento"
+        - "Geração automática de número do pedido"
+    
+    - nome: "RELATÓRIOS E ANALYTICS"
+      icone: "📈"
+      detalhes:
+        - "Registro de todas as interações"
+        - "Relatórios de produtos mais consultados"
+        - "Métricas de conversão de vendas"
+        - "Dashboard de performance"
+
+  estrutura_dados:
+    planilhas:
+      - nome: "Controle de Status"
+        campos:
+          - "ID"
+          - "Modelo"
+          - "Marca"
+          - "Tamanho"
+          - "Cor"
+          - "Quantidade disponível"
+          - "Localização"
+          - "Status"
+          - "Última atualização"
+      
+      - nome: "Catálogo de Produtos"
+        campos:
+          - "Produto"
+          - "Categoria"
+          - "Preço"
+          - "Desconto"
+          - "Descrição"
+          - "Imagem"
+          - "Status ativo"
+      
+      - nome: "Registro de Vendas"
+        campos:
+          - "Dados do cliente"
+          - "Produto vendido"
+          - "Valor total"
+          - "Forma de pagamento"
+          - "Status"
+      
+      - nome: "Analytics e Relatórios"
+        campos:
+          - "Interações por período"
+          - "Produtos mais consultados"
+          - "Taxa de conversão"
+
+  investimento:
+    desenvolvimento:
+      valor_a_vista: 1200.00
+      moeda: "BRL"
+      parcelado:
+        parcelas: 3
+        valor_parcela: 450.00
+        valor_total: 1350.00
+    
+    itens_inclusos:
+      - item: "Configuração WhatsApp Business API"
+        incluido: true
+      - item: "Desenvolvimento dos fluxos no Make.com"
+        incluido: true
+      - item: "Criação das 4 planilhas estruturadas"
+        incluido: true
+      - item: "Testes e homologação"
+        incluido: true
+      - item: "Treinamento da equipe"
+        incluido: true
+      - item: "Documentação completa"
+        incluido: true
+    
+    custos_mensais:
+      - servico: "WhatsApp Business API"
+        valor: 0.00
+        observacao: "Gratuito até 1.000 conversas"
+      - servico: "Make.com (Automação)"
+        valor: 35.00
+      - servico: "Google Sheets"
+        valor: 0.00
+        observacao: "Gratuito"
+      total_mensal: 35.00
+      observacao_adicional: "Após 1.000 conversas/mês, WhatsApp cobra R$ 0,05 por conversa adicional"
+
+  diferenciais:
+    - "30 dias de suporte gratuito pós-implantação"
+    - "Manual de operação detalhado"
+    - "Treinamento da equipe (2 sessões)"
+    - "Backup automático das planilhas" 
+    - "Dashboard de métricas personalizado"
+    - "Ajustes finos durante o primeiro mês"
+
+  cronograma:
+    prazo_total: "15 dias úteis"
+    etapas:
+      - semana: 1
+        duracao: "5 dias úteis"
+        atividade: "Setup e configuração inicial"
+      - semana: 2
+        duracao: "5 dias úteis" 
+        atividade: "Desenvolvimento dos fluxos"
+      - semana: 3
+        duracao: "3 dias úteis"
+        atividade: "Testes e homologação"
+      - semana: 4
+        duracao: "2 dias úteis"
+        atividade: "Treinamento e go-live"
+
+  resultados_esperados:
+    operacionais:
+      - metrica: "Redução no tempo de atendimento"
+        percentual: 80
+      - metrica: "Diminuição nas ligações de consulta"
+        percentual: 60
+      - metrica: "Controle do estoque em tempo real"
+        percentual: 100
+    
+    comerciais:
+      - metrica: "Aumento na conversão de vendas"
+        percentual: 40
+      - metrica: "Atendimento sem custos adicionais"
+        disponibilidade: "24/7"
+      - metrica: "Melhoria na experiência do cliente"
+        percentual: 100
+
+  condicoes_comerciais:
+    formas_pagamento:
+      - tipo: "À Vista"
+        valor: 1200.00
+        descricao: "sem desconto"
+      - tipo: "Parcelado"
+        parcelas: 3
+        valor_parcela: 450.00
+        valor_total: 1350.00
+    
+    garantia:
+      - "30 dias de garantia total"
+      - "Suporte técnico incluído no primeiro mês"
+      - "Atualizações gratuitas por 60 dias"
+
+  por_que_escolher:
+    - "Especialistas em automação para pequenos e médios negócios"
+    - "Soluções personalizadas para cada cliente"
+    - "Suporte técnico especializado"
+    - "Preços justos e transparentes"
+    - "Entrega no prazo garantida"
+
+  proximos_passos:
+    - passo: 1
+      acao: "Aprovação da proposta"
+    - passo: 2
+      acao: "Assinatura do contrato"
+    - passo: 3
+      acao: "Pagamento da primeira parcela"
+    - passo: 4
+      acao: "Início do desenvolvimento"
+
+  contato:
+    urls:
+      whatsapp: "https://wa.me/5511947376617"
+      email: "mailto:automacoesfragas@gmail.com"
+    
+    observacoes:
+      - "Proposta válida por 15 dias"
+      - "Esta proposta foi elaborada especificamente para as necessidades da Os Padrin"
+      - "Estamos à disposição para esclarecimentos e ajustes"
